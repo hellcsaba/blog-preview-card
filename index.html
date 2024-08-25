@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link href="./index.css" rel="stylesheet" />
+
     <link
       rel="icon"
       type="image/png"
@@ -18,10 +20,11 @@
     <main>
       <article class="container">
         <img
+          class="blog-image"
           src="./assets/images/illustration-article.svg"
-          alt="article-illustration"
+          alt="blog image"
         />
-        <section class="blog-info">
+        <section class="content">
           <div class="category">Learning</div>
           <div class="published">Published 21 Dec 2023</div>
           <h1 class="title">HTML & CSS foundations</h1>
@@ -29,13 +32,14 @@
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </div>
-          <div class="author">
-            <img
-              src="./assets/images/image-avatar.webp"
-              alt="Greg Hooper avatar"
-            />
-            <span class="author-name">Greg Hooper</span>
-          </div>
+        </section>
+        <section class="author">
+          <img
+            class="author-image"
+            src="./assets/images/image-avatar.webp"
+            alt="Greg Hooper avatar"
+          />
+          <span class="author-name">Greg Hooper</span>
         </section>
       </article>
     </main>
