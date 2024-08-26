@@ -46,6 +46,11 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    margin: 1rem;
+}
+
+.main {
+    max-width: 100%;
 }
 
 .container {
@@ -56,6 +61,7 @@ body {
     border-radius: 20px;
     border: 1px solid var(--gray-950);
     max-width: 24rem;
+    width: 100%;
     box-shadow: 0.5rem 0.5rem var(--gray-950);
 }
 
@@ -76,7 +82,6 @@ body {
     padding: 0.25rem 0.75rem;
     border-radius: 4px;
     max-width: fit-content;
-  
 }
 
 .published{
@@ -114,3 +119,24 @@ body {
     font-family: 'FigtreeExtraBold';
     font-size: 0.875rem;
 }
+
+@media (max-width: 23.4375rem) {    
+    .category {
+        font-size: 0.75rem;
+
+    }
+
+    .published {
+        font-size: 0.75rem;
+
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .description {
+        font-size: 0.875rem;
+    }
+
+  }
